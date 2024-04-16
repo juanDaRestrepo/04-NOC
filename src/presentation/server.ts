@@ -16,7 +16,7 @@ export class Server {
         
         // Send email
         const emailService = new EmailService();
-        emailService.sendEmail({
+        /* emailService.sendEmail({
             to: 'juanrestrepowebdev@gmail.com',
             subject: 'practice',
             htmlBody: `
@@ -24,7 +24,11 @@ export class Server {
                 <p>Esse est irure magna ipsum enim excepteur velit qui occaecat non sit labore. Excepteur ut ut ex in culpa culpa sint aliquip commodo. Cillum ipsum pariatur sunt ut commodo fugiat. Tempor esse est cupidatat est sit. Fugiat ea officia ipsum duis aute non amet magna in elit. Lorem ex dolor quis do. Culpa veniam ipsum aliquip qui tempor commodo.</p>
                 <p>Ver logs adjuntos</p>
             `
-        });
+        }); */
+
+        /* emailService.sentEmailWithFileSystemLogs(
+            ['juanrestrepowebdegmail.com', 'jdrestrepo@unitecnica.net']
+        ) */
     
         //CronService.createJob(
         //    '*/5 * * * * *', 
