@@ -15,7 +15,8 @@ export class Server {
         console.log('Server started...');
         
         // Send email
-        const emailService = new EmailService();
+        /* const emailService = new EmailService(fileSystemLogRepository); */
+
         /* emailService.sendEmail({
             to: 'juanrestrepowebdev@gmail.com',
             subject: 'practice',
@@ -27,7 +28,7 @@ export class Server {
         }); */
 
         /* emailService.sentEmailWithFileSystemLogs(
-            ['juanrestrepowebdegmail.com', 'jdrestrepo@unitecnica.net']
+            ['juanrestrepowebde@gmail.com', 'jdrestrepo@unitecnica.net']
         ) */
     
         //CronService.createJob(
