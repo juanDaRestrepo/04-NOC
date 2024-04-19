@@ -42,7 +42,6 @@ export class Server {
         ) */
         
         const logs = await logRepository.getLogs(LogSeverityLevel.low);
-        console.log(logs)
 
         //CronService.createJob(
         //    '*/5 * * * * *', 
