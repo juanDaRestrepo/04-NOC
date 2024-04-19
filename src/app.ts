@@ -1,7 +1,7 @@
 
 
 import { envs } from "./config/plugins/envs.pulgin";
-import { LogModel, MongoDatabase } from "./data/mongo";
+import { MongoDatabase } from "./data/mongo";
 import { Server } from "./presentation/server";
 
 (async() => {
