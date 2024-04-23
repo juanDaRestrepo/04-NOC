@@ -19,4 +19,9 @@ PROD=false
     ```
     docker compose up -d
     ```
-4. Ejecutar el comando ```npm run dev```
+5. Ejecutar el comando
+    ```
+    
+    npx prisma migrate dev
+    ```
+6. Ejecutar el comando ```npm run dev```
