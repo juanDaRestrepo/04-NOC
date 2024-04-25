@@ -10,15 +10,13 @@ export class MongoDatabase {
     static async connect( options: ConnectionOptions) {
         const { mongoUrl, dbName } = options;
 
-        try {
-            
+        try { 
             await mongoose.connect( mongoUrl, {
                 dbName: dbName
             });
 
-            console.log('Mongo Connected!')
+            return true;
         } catch (error) {
-            console.log('Mongo Connection error!!');
             throw error;
         }
     }
