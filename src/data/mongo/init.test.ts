@@ -1,4 +1,4 @@
-import { assert } from "console"
+
 import { MongoDatabase } from "./init"
 import mongoose from "mongoose"
 
